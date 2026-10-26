@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "xpmultiplier"
+version = "1.0.0"
+displayName = "XP Multiplier x7"
+description = '''Умножает весь получаемый игроком опыт в 7 раз.'''
+
+[[dependencies.xpmultiplier]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.xpmultiplier]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
